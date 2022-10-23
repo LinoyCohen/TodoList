@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Todo List</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/143cb17586.js" crossorigin="anonymous"></script>
+
+  <!-- bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <div id="cont" class="container">
+    <header class="blog-header py-3">
+      <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col-1 pt-1">
+          <img class="menu" src="images/menu-bar.png" alt="menu-image">
+        </div>
+
+        <div class="col-4 d-flex justify-content-end align-items-center">
+          <a class="todo-title">Todo</a>
+        </div>
+      </div>
+    </header>
+
+    <div id="ourList">
+    </div>
+
+    <div class="default-image">
+      <img id="def-img" src="images/2136912.jpg" alt="default-image">
+    </div>
+
+    <a>Create an item</a>
+    <div class="btn-group">
+      <form action="" method="post">
+        <select name="action" id="color">
+          <!-- <option id="red" value="red">&#x25CF;</option> -->
+          <option id="red" value="red">🔴</option>
+          <option id="blue" value="blue">🔵</option>
+          <option id="green" value="green">🟢</option>
+          <option id="yellow" value="yellow">🟡</option>
+        </select>
+      </form>
+      <form id="ourForm">
+        <input id="ourField" type="text" placeholder="Enter text here">
+      </form>
+    </div>
+    <button form="ourForm" class="save-btn btn btn-primary" type="submit">Save</button>
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>

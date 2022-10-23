@@ -1,0 +1,130 @@
+
+body {
+  font-family: 'Ubuntu';
+  font-weight: bold;
+}
+
+select {
+  border-radius: 10px;
+  box-shadow: 0 0 7px #ccc;
+  border: none;
+  height:35px;
+  outline: none;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+input,
+input::placeholder {
+  font-size: 15px;
+}
+
+input {
+  border-radius: 6px;
+  box-shadow: 0 0 7px #ccc;
+  border: 0;
+  outline: none;
+  height:35px;
+  margin-left: 15px;
+  width: 460px;
+}
+
+option {
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 0 7px #ccc;
+  font-size: 10px;
+}
+
+.container{
+  box-shadow: 0 0 7px #ccc;
+  border-radius: 10px;
+  width: 550px;
+  height: 600px;
+  margin-top: 30px;
+}
+
+.todo-title {
+  font-size: 18px;
+}
+
+.default-image {
+  text-align: center;
+  position: relative;
+  opacity: 0.5;
+  margin-bottom: 180px;
+}
+
+.menu {
+  opacity: 0.5;
+}
+
+.btn-menu {
+  background-color: #fff;
+  color: black;
+  border: none;
+  box-shadow: 0 0 7px #ccc;
+  border-radius: 10px;
+}
+
+.new-item {
+  box-shadow: 0 0 7px #ccc;
+  border-radius: 10px;
+  height: 60px;
+  width: 515px;
+  padding-top: 15px;
+  padding-left: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.task-text {
+  margin-left: 15px;
+  position: absolute;
+  z-index: 20;
+}
+
+.edit-and-delete-btns {
+  margin-left: 420px;
+  display: inline-block;
+}
+
+.remove-btn {
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  position: relative;
+}
+
+.edit-btn {
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  position: relative;
+}
+
+.btn-group {
+  position: relative;
+}
+
+.save-btn {
+  opacity: 0.5;
+  border-radius: 10px;
+  box-shadow: 0 0 7px #ccc;
+  margin-top: 15px;
+  width: 130px;
+}
+
+#time-lbl {
+  font-size: 10px;
+  opacity: 0.5;
+  margin-left: 35px;
+}
+
+#ourList {
+  max-height: 300px;
+  position: absolute;
+  z-index: 2;
+  overflow-y: auto;
+}
